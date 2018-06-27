@@ -10,7 +10,7 @@ process.stdin.on('readable', function() {
 				process.exit();
 				break;
 			case "version":
-				console.log(process.versions);
+				console.log(process.versions.node);
 				break;
 			case "lang":
 				console.log(process.env.LANG);
